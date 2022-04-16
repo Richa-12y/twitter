@@ -1,0 +1,7 @@
+.tweetBox_inputImg{
+      width: 30px;
+      height: 20px;
+      border-radius: 50%;
+      position: absolute;
+      border: 2px solid white;
+    }
