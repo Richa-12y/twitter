@@ -1,17 +1,14 @@
 import React from "react";
 import "./tweetBox.css";
 import { GiPlayButton } from "react-icons/gi";
+import { BsPeople } from "react-icons/bs";
 
 function TweetBox() {
   return (
     <div className="tweetbox">
       <form>
         <div className="tweetBox_input">
-          <img
-            className="tweetBox_inputImg"
-            src="https://images.pexels.com/photos/11653295/pexels-photo-11653295.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-            alt="image"
-          />
+          <BsPeople src="https://images.pexels.com/photos/11653295/pexels-photo-11653295.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
           <input type="text" placeholder="What's happening" />
         </div>
         <input
